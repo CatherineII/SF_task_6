@@ -1,0 +1,19 @@
+article {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    align-items: center;
+    color: darkgray;
+}
+
+.more {
+    color: red;
+}
+
+#news {
+    background-color: lightblue;
+    padding: 5px 10px 20px 40px;
+}
