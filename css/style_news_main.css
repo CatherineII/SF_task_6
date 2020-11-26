@@ -19,12 +19,41 @@ h1{
     background-color: white;
     padding: 50px 0 32px;
 }
+section article:nth-child(2n){
+    background-color: whitesmoke;
+    border-bottom: 3px double plum;
+    border-top: 1px solid plum;
+}
+section article:nth-child(2n+1)
+.article-body{
+    flex-direction: row-reverse;
+}
+section article:nth-child(1)
+h2::after{
+    content: "Popular";
+    color: purple;
+    font-size: 0.5em;
+    vertical-align: top;
+}
+section article:nth-child(2)
+h2::after{
+    content: "New";
+    color: red;
+    font-size: 0.5em;
+    vertical-align: top;
+}
+section article:nth-child(3)
+h2::after{
+    content: "New";
+    color: red;
+    font-size: 0.5em;
+    vertical-align: top;
+}
 article{
     width: 840px;
-    background-color: lightgrey;
+    background-color: rgb(226, 226, 226);
     margin: 0 auto 32px;
     padding: 6px 15px;
-    border: 1px solid plum;
 }
 article a{
     color: rgb(117, 108, 125);
@@ -39,7 +68,7 @@ article h2{
     margin-bottom: 5px;
 }
 .article-meta{
-    color: whitesmoke;
+    color: rgb(117, 108, 125);
     margin-bottom: 5px;
 }
 article img{
@@ -57,7 +86,7 @@ article div img{
 }
 article div p{
     padding: 5px;
-    color: whitesmoke;
+    color: rgb(117, 108, 125);
     font-size: 14px;
     font-weight: 400;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
